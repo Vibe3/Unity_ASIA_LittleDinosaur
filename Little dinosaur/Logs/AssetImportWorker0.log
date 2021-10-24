@@ -1,0 +1,1774 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1237; Version 2009; 64bit' Language: 'zh' Physical Memory: 16332 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\unity\2020.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/unity/Game design/Unity_ASIA_LittleDinosaur/Little dinosaur
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54439
+Successfully changed project path to: D:/unity/Game design/Unity_ASIA_LittleDinosaur/Little dinosaur
+D:/unity/Game design/Unity_ASIA_LittleDinosaur/Little dinosaur
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 40.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path D:/unity/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity/Game design/Unity_ASIA_LittleDinosaur/Little dinosaur/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   30.0.14.9613
+Initialize mono
+Mono path[0] = 'D:/unity/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/unity/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/unity/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001223 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 41.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.381 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1382ms)
+		BeginReloadAssembly (42ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (357ms)
+			LoadAssemblies (42ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (132ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (141ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (65ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001951 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 41.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.923 seconds
+Domain Reload Profiling:
+	ReloadAssembly (924ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (751ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (244ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (287ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (41ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2090 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.1 MB.
+System memory in use after: 93.1 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2529.
+Total: 3.132900 ms (FindLiveObjects: 0.251200 ms CreateObjectMapping: 0.044400 ms MarkObjects: 2.756000 ms  DeleteObjects: 0.080100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/New Folder
+  artifactKey: Guid(abccf915572320c4bbf17a4ef7b722da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder using Guid(abccf915572320c4bbf17a4ef7b722da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c69826be58ac89d6fb8956087611c9') in 0.010141 seconds 
+  Import took 0.013544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.753853 seconds.
+  path: Assets/場景素材
+  artifactKey: Guid(abccf915572320c4bbf17a4ef7b722da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材 using Guid(abccf915572320c4bbf17a4ef7b722da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315488fed0e91b79b928467cb3df75a5') in 0.006692 seconds 
+  Import took 0.009745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.214556 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Tileset Palette
+  artifactKey: Guid(ffa1277bff802794d811d96630d14d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Tileset Palette using Guid(ffa1277bff802794d811d96630d14d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379f1605efef327cf181996540852f68') in 0.007122 seconds 
+  Import took 0.010483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.392039 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground.prefab
+  artifactKey: Guid(027db5ce1ff2f4142b49c3de3b59625a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground.prefab using Guid(027db5ce1ff2f4142b49c3de3b59625a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263a83dca0e1c43e4bd08a854d255cdd') in 0.127280 seconds 
+  Import took 0.132566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.082959 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Material/MT FX Particle Torch Fire.mat
+  artifactKey: Guid(dce4faabfa7d00147bb7d853e5c1fbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Material/MT FX Particle Torch Fire.mat using Guid(dce4faabfa7d00147bb7d853e5c1fbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb343f53a247d9728c3a5c6609683b9') in 0.132051 seconds 
+  Import took 0.135445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bucket.prefab
+  artifactKey: Guid(75e84fbdb66ab5647a06b786c6662307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bucket.prefab using Guid(75e84fbdb66ab5647a06b786c6662307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b4e94f95b38b8697aeb4a0fe0ce007') in 0.042816 seconds 
+  Import took 0.045944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gravestone B.prefab
+  artifactKey: Guid(f39426a001c71d84999be2ee63c7d322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gravestone B.prefab using Guid(f39426a001c71d84999be2ee63c7d322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8acae1620e3118e4010b0b65b379859') in 0.015147 seconds 
+  Import took 0.018336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Material/MT FX Particle Torch Glow.mat
+  artifactKey: Guid(6c48dc6ed4cda324b83bb2391ca6fb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Material/MT FX Particle Torch Glow.mat using Guid(6c48dc6ed4cda324b83bb2391ca6fb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f0f39ef50032520a2719ae6f4499d8') in 0.012364 seconds 
+  Import took 0.015752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Anvil.prefab
+  artifactKey: Guid(c2f614a8e0864dc428810ace2ccc1584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Anvil.prefab using Guid(c2f614a8e0864dc428810ace2ccc1584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9155d6fb480b7947d73e2c97bbe6e445') in 0.016858 seconds 
+  Import took 0.020454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gravestone C.prefab
+  artifactKey: Guid(d6770ea3eabbc694a9bad4112d5af65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gravestone C.prefab using Guid(d6770ea3eabbc694a9bad4112d5af65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46fecb466e5f3233afaeb5d5086e044d') in 0.018697 seconds 
+  Import took 0.021666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grain Box.prefab
+  artifactKey: Guid(945a24dea7767f846ad8007110a371f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grain Box.prefab using Guid(945a24dea7767f846ad8007110a371f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f491bd786db4d75657dfb2693803d559') in 0.015636 seconds 
+  Import took 0.018445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Rock A.prefab
+  artifactKey: Guid(8dab7379f6c67d9448d4c24d1eace61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Rock A.prefab using Guid(8dab7379f6c67d9448d4c24d1eace61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ae5ba6f4320bc56571d5f1920c50d6') in 0.018828 seconds 
+  Import took 0.021725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pot C.prefab
+  artifactKey: Guid(4d0ea86cf0ef88c4fa3ae46ee54d15d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pot C.prefab using Guid(4d0ea86cf0ef88c4fa3ae46ee54d15d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32e533a6ffe3c93916e6ccb0ea94638') in 0.013115 seconds 
+  Import took 0.016066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Scarecrow.prefab
+  artifactKey: Guid(ef2b6e3a0904d0a488fb7a1bd47ce073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Scarecrow.prefab using Guid(ef2b6e3a0904d0a488fb7a1bd47ce073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad7af9e367de9b0e53c925b6e59d557') in 0.030471 seconds 
+  Import took 0.033860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gunny Bag B.prefab
+  artifactKey: Guid(25f9f2235afcaca429284c9aec8982df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gunny Bag B.prefab using Guid(25f9f2235afcaca429284c9aec8982df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777b2e58a3f878001b4a666ab958001e') in 0.012512 seconds 
+  Import took 0.016040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Log Bench.prefab
+  artifactKey: Guid(28ae4e85426a2f54a98737a016d4cbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Log Bench.prefab using Guid(28ae4e85426a2f54a98737a016d4cbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0a4ea69cde0681cdccf8855be70da4') in 0.013887 seconds 
+  Import took 0.017202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bush B.prefab
+  artifactKey: Guid(e3ef72d9f2a941b479a3bda87147db32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bush B.prefab using Guid(e3ef72d9f2a941b479a3bda87147db32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6277bdbac6071ecdd1d82c602b8137e') in 0.016988 seconds 
+  Import took 0.019852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pumpkin A.prefab
+  artifactKey: Guid(4c7668f32ddf4c843bc8d57bf6b43000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pumpkin A.prefab using Guid(4c7668f32ddf4c843bc8d57bf6b43000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03fe9230ca5b72319818a72ab70f3d9d') in 0.015409 seconds 
+  Import took 0.019009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform S.prefab
+  artifactKey: Guid(b66942e8458865e4990a5fc39874e9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform S.prefab using Guid(b66942e8458865e4990a5fc39874e9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132340a7657ff167805581027428a5f1') in 0.019356 seconds 
+  Import took 0.022432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Hay Fork 1.prefab
+  artifactKey: Guid(fad6b34e2edb6f24c951ba47fab95694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Hay Fork 1.prefab using Guid(fad6b34e2edb6f24c951ba47fab95694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5e713b4108bfe40e1d5f1ec2b1a964') in 0.012694 seconds 
+  Import took 0.016029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Spike.prefab
+  artifactKey: Guid(c4728654af6c1b84fb5102e3f29ffb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Spike.prefab using Guid(c4728654af6c1b84fb5102e3f29ffb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4c95d44914046b00fc409dd73aceb0') in 0.013828 seconds 
+  Import took 0.016972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Hay Bale.prefab
+  artifactKey: Guid(6a9ccf5128b7b1349a5a89b136f037a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Hay Bale.prefab using Guid(6a9ccf5128b7b1349a5a89b136f037a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3505408faf44ce47501e314476dbf4d7') in 0.013030 seconds 
+  Import took 0.015990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Silver.prefab
+  artifactKey: Guid(7f2681b23c23afc4fbb43c6dca9f41f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Silver.prefab using Guid(7f2681b23c23afc4fbb43c6dca9f41f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a457f0c7e90d40647e51dd6db87aec77') in 0.030852 seconds 
+  Import took 0.034324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Crate Small.prefab
+  artifactKey: Guid(ab9278aa8a6f856468c48e893720a765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Crate Small.prefab using Guid(ab9278aa8a6f856468c48e893720a765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0afae595b4f812051e7aba9b1cca017') in 0.012957 seconds 
+  Import took 0.015983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Fence A.prefab
+  artifactKey: Guid(8cc938fe21b426a4daedf2f6c7e34c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Fence A.prefab using Guid(8cc938fe21b426a4daedf2f6c7e34c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4942beedc35bb571d2c0d51a1912ad9c') in 0.014647 seconds 
+  Import took 0.017856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bush A.prefab
+  artifactKey: Guid(0a84f54077193d3489d0de133048df37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bush A.prefab using Guid(0a84f54077193d3489d0de133048df37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98bda6a4142eecbe387a4cc08f73a72f') in 0.012248 seconds 
+  Import took 0.015249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Basket.prefab
+  artifactKey: Guid(33765db783031c64eb242d22002b9a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Basket.prefab using Guid(33765db783031c64eb242d22002b9a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55cdc6e523d96f87f508786ac252ff68') in 0.012867 seconds 
+  Import took 0.016281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Billboard.prefab
+  artifactKey: Guid(6ecf5bcec20adfa429a788f660f29ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Billboard.prefab using Guid(6ecf5bcec20adfa429a788f660f29ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4326258e48be815725c9b57850368cdf') in 0.013512 seconds 
+  Import took 0.016450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Road Lamp.prefab
+  artifactKey: Guid(c13263f1f05170f4e849875cee5c46d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Road Lamp.prefab using Guid(c13263f1f05170f4e849875cee5c46d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bab34186595a4929c686cd3b23f1fb1') in 0.016450 seconds 
+  Import took 0.019409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Campfire.prefab
+  artifactKey: Guid(e8bae36b607017047ace9061609051d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Campfire.prefab using Guid(e8bae36b607017047ace9061609051d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54cbcb51e083f8d453c590b5c24690e') in 0.016478 seconds 
+  Import took 0.019623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Ladder.prefab
+  artifactKey: Guid(f41211a6e39d8ab42a846d7622cabd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Ladder.prefab using Guid(f41211a6e39d8ab42a846d7622cabd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1ea3a5a16b5816e732405b68ba81a5') in 0.013197 seconds 
+  Import took 0.016460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Rock B.prefab
+  artifactKey: Guid(b076c268235cb7348a5d9a036ec254c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Rock B.prefab using Guid(b076c268235cb7348a5d9a036ec254c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec6c78ec9b9817b685af9e5fefdf5f8') in 0.013058 seconds 
+  Import took 0.015934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Hammer.prefab
+  artifactKey: Guid(e496de2bd698f6c409bd2a9bceda980e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Hammer.prefab using Guid(e496de2bd698f6c409bd2a9bceda980e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082094984eac502cac901d29e400744b') in 0.011883 seconds 
+  Import took 0.014912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Apple.prefab
+  artifactKey: Guid(d732c433f052247478d37fac6cedfe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Apple.prefab using Guid(d732c433f052247478d37fac6cedfe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3546edcf5bc0ea36dcaa25ac25a2d43') in 0.011639 seconds 
+  Import took 0.014458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Archert Target.prefab
+  artifactKey: Guid(55e220e9324021f4aba5a837610ec52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Archert Target.prefab using Guid(55e220e9324021f4aba5a837610ec52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1577b9e58a4d01983f32bb97908ad1c') in 0.013933 seconds 
+  Import took 0.017286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gunny Bag A.prefab
+  artifactKey: Guid(c223d1574bec3184c97d31eaf1406178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gunny Bag A.prefab using Guid(c223d1574bec3184c97d31eaf1406178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4a43a0199916755086791138fd7791') in 0.012381 seconds 
+  Import took 0.015208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform M.prefab
+  artifactKey: Guid(8f0b414806fcbda47b9f242883104bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform M.prefab using Guid(8f0b414806fcbda47b9f242883104bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffedc00531be131c2ecf77c745cfae74') in 0.012441 seconds 
+  Import took 0.015720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pot A.prefab
+  artifactKey: Guid(78c0f168d9274124eaeedea139301a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pot A.prefab using Guid(78c0f168d9274124eaeedea139301a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cbab09bd890f98bab19ed6f1077c9c2') in 0.012050 seconds 
+  Import took 0.015014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gravestone A.prefab
+  artifactKey: Guid(050d9e84d8de61d41ac16ebab39e64a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gravestone A.prefab using Guid(050d9e84d8de61d41ac16ebab39e64a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603d2f008238b0755befc9bac8f49c0c') in 0.012495 seconds 
+  Import took 0.015399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Barrel.prefab
+  artifactKey: Guid(1509360826d6bb34587310ad4949fdd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Barrel.prefab using Guid(1509360826d6bb34587310ad4949fdd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3578817f69fe095d14afb5dbc60375af') in 0.011881 seconds 
+  Import took 0.015239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Material/MT FX Particle Torch Spark.mat
+  artifactKey: Guid(23524a906e8f5eb4384f92eb87af52f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Material/MT FX Particle Torch Spark.mat using Guid(23524a906e8f5eb4384f92eb87af52f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92673f0f004374009cc54a4434b1a84') in 0.010202 seconds 
+  Import took 0.013576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Cup.prefab
+  artifactKey: Guid(4d8ad400922c4a343911784077c26568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Cup.prefab using Guid(4d8ad400922c4a343911784077c26568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e19040a124fb5bfd4a7148d9863527') in 0.012148 seconds 
+  Import took 0.015456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Heavy Sword.prefab
+  artifactKey: Guid(9af026272fa8fd144b992aa10e9a13b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Heavy Sword.prefab using Guid(9af026272fa8fd144b992aa10e9a13b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4ca4161d9f085c1a7872e3930871f9') in 0.011557 seconds 
+  Import took 0.014368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Road Sign - A.prefab
+  artifactKey: Guid(bbde5b0f2fde63f47aab9703a1e8e784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Road Sign - A.prefab using Guid(bbde5b0f2fde63f47aab9703a1e8e784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66cdc11b934d6cfa6b4a159a1607510') in 0.012916 seconds 
+  Import took 0.016227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Hay Pile.prefab
+  artifactKey: Guid(337bf7fb32e777b41a8411ca5d35e56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Hay Pile.prefab using Guid(337bf7fb32e777b41a8411ca5d35e56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89c361edec5a12f3a9ba29f0b5c26f0') in 0.013428 seconds 
+  Import took 0.016798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Clother Hanger.prefab
+  artifactKey: Guid(cbdefb422455c2a4aab364028b4b5e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Clother Hanger.prefab using Guid(cbdefb422455c2a4aab364028b4b5e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4330c408adf5df473f4e5f909ee6c91c') in 0.014435 seconds 
+  Import took 0.017729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Hay Fork.prefab
+  artifactKey: Guid(3f221dff797bcc04f93920ab6fb086c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Hay Fork.prefab using Guid(3f221dff797bcc04f93920ab6fb086c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28f27340008b9728f8f8b035681f1ee') in 0.012106 seconds 
+  Import took 0.015531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform R.prefab
+  artifactKey: Guid(e3923ce12ac7289418d3157a9b65dfa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform R.prefab using Guid(e3923ce12ac7289418d3157a9b65dfa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955b7c7653d5921b14f4f13546585f05') in 0.012191 seconds 
+  Import took 0.015674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform W.prefab
+  artifactKey: Guid(88bfda9eeb201b349a508b0347d22590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform W.prefab using Guid(88bfda9eeb201b349a508b0347d22590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb325b5ac9f78e18d028c31c64001d4') in 0.012200 seconds 
+  Import took 0.015485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Arrow.prefab
+  artifactKey: Guid(27277137d0605bd45bd741cdb791e0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Arrow.prefab using Guid(27277137d0605bd45bd741cdb791e0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9749d7c3d1c399fcda8606fb2a1a4e') in 0.011737 seconds 
+  Import took 0.015121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Iron.prefab
+  artifactKey: Guid(5abf20f0457997348bd80242fe916388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Iron.prefab using Guid(5abf20f0457997348bd80242fe916388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309e11c61cbd040e92fe2d48d8fc6fdf') in 0.012914 seconds 
+  Import took 0.016141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Rock C.prefab
+  artifactKey: Guid(2f54e7022d76f09478e2e1124e212cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Rock C.prefab using Guid(2f54e7022d76f09478e2e1124e212cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501924c7cc4b8014ca78988f0c53375f') in 0.011634 seconds 
+  Import took 0.014659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Spear.prefab
+  artifactKey: Guid(b5866d78fe6dce549a3dcd007f7eaca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Spear.prefab using Guid(b5866d78fe6dce549a3dcd007f7eaca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50eb04f437c8ba5c5585f242ad558de') in 0.011517 seconds 
+  Import took 0.014710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gravestone D.prefab
+  artifactKey: Guid(5105ccaacad8d714b94dfb93084fa936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gravestone D.prefab using Guid(5105ccaacad8d714b94dfb93084fa936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167c6d007700ad141fac644bbc09d39d') in 0.011881 seconds 
+  Import took 0.014833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform L.prefab
+  artifactKey: Guid(be45c7f16746c98428fc87d0d0f34226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform L.prefab using Guid(be45c7f16746c98428fc87d0d0f34226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72acc0e8edd94d3a4c4e32904e9282d7') in 0.011631 seconds 
+  Import took 0.014919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Fire Bowl.prefab
+  artifactKey: Guid(56e2a525e0fbd93419c9b313c362934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Fire Bowl.prefab using Guid(56e2a525e0fbd93419c9b313c362934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41393dbf0e9ca7c2087d67945c684013') in 0.013812 seconds 
+  Import took 0.017384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Crate Large.prefab
+  artifactKey: Guid(78538c3cab4610f4d914a10e71bdf46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Crate Large.prefab using Guid(78538c3cab4610f4d914a10e71bdf46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb57ee02862339f43ed72b3f754f9517') in 0.011860 seconds 
+  Import took 0.014842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Wooden.prefab
+  artifactKey: Guid(f98d0f39fcc67a34f844abd8a50f2c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Wooden.prefab using Guid(f98d0f39fcc67a34f844abd8a50f2c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adec6ca089aaefb9ac1e680b467fd90d') in 0.012032 seconds 
+  Import took 0.014926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bush C.prefab
+  artifactKey: Guid(de570bfbf1a49ba4c9575930f7db6bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bush C.prefab using Guid(de570bfbf1a49ba4c9575930f7db6bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ebc1ba25bcb50c74c7fc6f3d5a8866') in 0.012516 seconds 
+  Import took 0.015573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Spike Ball.prefab
+  artifactKey: Guid(ac067d7d3bd8a1c4a9fb05099b5a4e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Spike Ball.prefab using Guid(ac067d7d3bd8a1c4a9fb05099b5a4e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ebad3c7ff32a1cc237df3d5f67175a') in 0.011891 seconds 
+  Import took 0.015278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bread.prefab
+  artifactKey: Guid(5b863081ef08aeb42abb2f87baf72b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bread.prefab using Guid(5b863081ef08aeb42abb2f87baf72b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71222bec84e333fd2e8dc6b558c3ac8d') in 0.013305 seconds 
+  Import took 0.016552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Golden.prefab
+  artifactKey: Guid(cea950ff3b9b0804f967eaec919f19f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Golden.prefab using Guid(cea950ff3b9b0804f967eaec919f19f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5fd54b104a5cb11a0c8edb18cf4c58') in 0.014252 seconds 
+  Import took 0.017362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Barricade.prefab
+  artifactKey: Guid(e0868e2099f22704cb8f4781f4dffe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Barricade.prefab using Guid(e0868e2099f22704cb8f4781f4dffe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004ed66af27e536dd8e3fc651f625db3') in 0.011081 seconds 
+  Import took 0.013994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Fence B.prefab
+  artifactKey: Guid(366bd147d3b568843ab9463d10b7fb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Fence B.prefab using Guid(366bd147d3b568843ab9463d10b7fb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb5315baef0a8d788ce9388e17ca737') in 0.012057 seconds 
+  Import took 0.015360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform E.prefab
+  artifactKey: Guid(4e2f5851c35ac714993e47e8bfd4da5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform E.prefab using Guid(4e2f5851c35ac714993e47e8bfd4da5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1532612fb1e6738bfdbcd7f2f48c377b') in 0.012779 seconds 
+  Import took 0.016579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Road Sign - B.prefab
+  artifactKey: Guid(05d871b9365825b4ca356e1345739ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Road Sign - B.prefab using Guid(05d871b9365825b4ca356e1345739ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64249de6c6736fc4c2f1619cb659350b') in 0.012419 seconds 
+  Import took 0.015509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pumpkin B.prefab
+  artifactKey: Guid(c733f14e73fac4e4cbcdf3c827225214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pumpkin B.prefab using Guid(c733f14e73fac4e4cbcdf3c827225214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bfedf87cdadf96ab67c1aba7e0edf27') in 0.011865 seconds 
+  Import took 0.014643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Banner.prefab
+  artifactKey: Guid(5fd9ed34f1f755643b41c4b41d7077e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Banner.prefab using Guid(5fd9ed34f1f755643b41c4b41d7077e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78341ef739a470a54956621fed0bb432') in 0.011874 seconds 
+  Import took 0.014825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Cauldron.prefab
+  artifactKey: Guid(838a9c74e6cba734faec44d9be3b765e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Cauldron.prefab using Guid(838a9c74e6cba734faec44d9be3b765e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49e7e322568e1a742b5a5e635e54ab5') in 0.012001 seconds 
+  Import took 0.015090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Ladder Side.prefab
+  artifactKey: Guid(3373af298f123a849a61f9aefe9ec4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Ladder Side.prefab using Guid(3373af298f123a849a61f9aefe9ec4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fde703bf21b04deee930ec4e238f95') in 0.011908 seconds 
+  Import took 0.014931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chair.prefab
+  artifactKey: Guid(bb67ae3035abce24aa87122c96acac22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chair.prefab using Guid(bb67ae3035abce24aa87122c96acac22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9aac14f3d1914b36cec182bc8776ebb') in 0.012273 seconds 
+  Import took 0.015613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Brick Wall.prefab
+  artifactKey: Guid(d4071901789ed384389951219d1e0315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Brick Wall.prefab using Guid(d4071901789ed384389951219d1e0315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e071335164e4cf7edb46c538cdabf191') in 0.012518 seconds 
+  Import took 0.015916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pot B.prefab
+  artifactKey: Guid(282d10bd840f2244d993130a17f23515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pot B.prefab using Guid(282d10bd840f2244d993130a17f23515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac0cf6833ec71516663827ba154740c') in 0.011675 seconds 
+  Import took 0.014703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.843180 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Background Grid.png
+  artifactKey: Guid(4525736a9d0538940bce8f13f1227b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Background Grid.png using Guid(4525736a9d0538940bce8f13f1227b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643aad506284d37daf5318c1373644dd') in 0.062011 seconds 
+  Import took 0.065491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Particle Flame.png
+  artifactKey: Guid(cfcfd3af954eeb54cb041fe6d75a983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Particle Flame.png using Guid(cfcfd3af954eeb54cb041fe6d75a983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07b3dcc4a10ae241e7b1f628c55bb1c') in 0.010921 seconds 
+  Import took 0.013847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5969e0862b3bd9f684948fbbd603f9db') in 0.295983 seconds 
+  Import took 0.299186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png
+  artifactKey: Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png using Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd94d4747251ccc5225436e4feacede') in 0.225288 seconds 
+  Import took 0.229103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Chest Animation.png
+  artifactKey: Guid(19e07f9d107e445408633f50457d456e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Chest Animation.png using Guid(19e07f9d107e445408633f50457d456e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e977cd79c3c822e5d9cc44ef51c3a969') in 0.063894 seconds 
+  Import took 0.067070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 267.106104 seconds.
+  path: Assets/場景素材/Platformer - desert/plat_showcover.gif
+  artifactKey: Guid(cf88f1c90aa9bc14eb234219ea26febe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/plat_showcover.gif using Guid(cf88f1c90aa9bc14eb234219ea26febe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02db5805ac50f2b4fff0f1410cf31330') in 0.020651 seconds 
+  Import took 0.024473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.215765 seconds.
+  path: Assets/場景素材/Platformer - desert/showcase/plat_show1.png
+  artifactKey: Guid(6553063038b7657418087f2b9bbd6358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/showcase/plat_show1.png using Guid(6553063038b7657418087f2b9bbd6358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96b9f973b955c71bfd154fc02e195e2') in 0.011923 seconds 
+  Import took 0.015519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/場景素材/Platformer - desert/showcase/plat_show4.png
+  artifactKey: Guid(8ba0459ea73f1f44f93c05304c599cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/showcase/plat_show4.png using Guid(8ba0459ea73f1f44f93c05304c599cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c70ef66263e3f690d14ef5df4fcbd4b') in 0.011990 seconds 
+  Import took 0.015145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/場景素材/Platformer - desert/showcase/plat_show2.png
+  artifactKey: Guid(352434524d4461d47848da2748089604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/showcase/plat_show2.png using Guid(352434524d4461d47848da2748089604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f139c20e46a3ce3b926e984fa19404') in 0.014900 seconds 
+  Import took 0.018682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/場景素材/Platformer - desert/showcase/plat_show3.png
+  artifactKey: Guid(02d94c7ca697ec842a3cd98d055c7b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/showcase/plat_show3.png using Guid(02d94c7ca697ec842a3cd98d055c7b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '049a60afeedc3a590858e5b93c3bc183') in 0.012565 seconds 
+  Import took 0.015842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/場景素材/Platformer - desert/showcase/plat_show5.png
+  artifactKey: Guid(7e2013323743e1e4088fd553de04d164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/showcase/plat_show5.png using Guid(7e2013323743e1e4088fd553de04d164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7fa0d5edd024d92016fb9c9fdf6432') in 0.013161 seconds 
+  Import took 0.016740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/場景素材/Platformer - desert/showcase/plat_show3.png
+  artifactKey: Guid(02d94c7ca697ec842a3cd98d055c7b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/showcase/plat_show3.png using Guid(02d94c7ca697ec842a3cd98d055c7b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '049a60afeedc3a590858e5b93c3bc183') in 0.014015 seconds 
+  Import took 0.017757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.033979 seconds.
+  path: Assets/場景素材/Platformer - desert/props/rocks1.png
+  artifactKey: Guid(e24a0d380734f0b4b9bf5436f57aeb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/props/rocks1.png using Guid(e24a0d380734f0b4b9bf5436f57aeb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e021045084cdab28c968a2c3925b99ea') in 0.012398 seconds 
+  Import took 0.015818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/場景素材/Platformer - desert/props/rocks5.png
+  artifactKey: Guid(47dfdd1e8ab98ab4798d5d92f1a0ba20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/props/rocks5.png using Guid(47dfdd1e8ab98ab4798d5d92f1a0ba20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e8a3ccb07df42483fc6c76d9750b74') in 0.012661 seconds 
+  Import took 0.016041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/場景素材/Platformer - desert/props/rocks6.png
+  artifactKey: Guid(dbd594931c48315498a8aa9584ce6b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/props/rocks6.png using Guid(dbd594931c48315498a8aa9584ce6b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b869749c9932c55005c21c7ccd3294') in 0.012745 seconds 
+  Import took 0.016039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/場景素材/Platformer - desert/props/rocks4.png
+  artifactKey: Guid(b63310fa3e8a21a469fb088e492b9fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/props/rocks4.png using Guid(b63310fa3e8a21a469fb088e492b9fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9c8e70022b6797809488f0c2345d34') in 0.012467 seconds 
+  Import took 0.015353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/場景素材/Platformer - desert/props/tree01.png
+  artifactKey: Guid(b797487a536370b41a5f68f081f44194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/props/tree01.png using Guid(b797487a536370b41a5f68f081f44194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c1d635c4de128e9a4039fd11ba60ad') in 0.024743 seconds 
+  Import took 0.027694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/場景素材/Platformer - desert/props/tree03.png
+  artifactKey: Guid(1dc9a6100301e694bb35fe6703e4cf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/props/tree03.png using Guid(1dc9a6100301e694bb35fe6703e4cf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b4d0aaf3d67c4a832e23a234143321') in 0.012863 seconds 
+  Import took 0.015749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/場景素材/Platformer - desert/props/tree04.png
+  artifactKey: Guid(7ad45174b54062c4f8f69a5ed7478a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/props/tree04.png using Guid(7ad45174b54062c4f8f69a5ed7478a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653b8efe2dc52eb0327bccc07ba266b4') in 0.018814 seconds 
+  Import took 0.022330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/場景素材/Platformer - desert/props/rocks2.png
+  artifactKey: Guid(7a9500231e3986d478871d9714863d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/props/rocks2.png using Guid(7a9500231e3986d478871d9714863d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe5ce754caf8d9612096b45a7f5f577') in 0.017498 seconds 
+  Import took 0.020836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/場景素材/Platformer - desert/props/tree02.png
+  artifactKey: Guid(260bf3e525b0d1c479964d7fdf94f645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/props/tree02.png using Guid(260bf3e525b0d1c479964d7fdf94f645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf88c20439764ed4d8687b0c9f8f793') in 0.012615 seconds 
+  Import took 0.015498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/場景素材/Platformer - desert/props/rocks3.png
+  artifactKey: Guid(1bab76f25c41d9b48b4f178f2ceb984d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/props/rocks3.png using Guid(1bab76f25c41d9b48b4f178f2ceb984d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456487c3edf44af3f8128b1c96831cfa') in 0.013555 seconds 
+  Import took 0.016650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.196084 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/00Atlas.png
+  artifactKey: Guid(53ff735509585c84fa30928ac0ff80f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/00Atlas.png using Guid(53ff735509585c84fa30928ac0ff80f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414d9fa171dd21cd6bcd78ba8c351349') in 0.013136 seconds 
+  Import took 0.016522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/platvariation3.png
+  artifactKey: Guid(ed3861296a9359149b082dbd6fa0da8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/platvariation3.png using Guid(ed3861296a9359149b082dbd6fa0da8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555755351d7cfae75af84d178cb9678d') in 0.012034 seconds 
+  Import took 0.014827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/grass11.png
+  artifactKey: Guid(b6ef30f1420db934281fbce47a7a1b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/grass11.png using Guid(b6ef30f1420db934281fbce47a7a1b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46725e72416cafdf63de76e316f01367') in 0.012462 seconds 
+  Import took 0.015664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain5.png
+  artifactKey: Guid(0e772d6621f330f4c97ba7828227e7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain5.png using Guid(0e772d6621f330f4c97ba7828227e7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85681286f812478ccbe0305b22c7a87f') in 0.013180 seconds 
+  Import took 0.016304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain16.png
+  artifactKey: Guid(701749c80883aa644802e7bcaff47ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain16.png using Guid(701749c80883aa644802e7bcaff47ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b2ea09a8fe5bf9db7fc45a257a0c7cf') in 0.012076 seconds 
+  Import took 0.015160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain1.png
+  artifactKey: Guid(76abfc3c827d8ca478a1546d6f59c87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain1.png using Guid(76abfc3c827d8ca478a1546d6f59c87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7e5868f48c14aee614c3580060ee71') in 0.012119 seconds 
+  Import took 0.015109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/bridge3.png
+  artifactKey: Guid(8cd08d9b462a05f45918fe61aa74e559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/bridge3.png using Guid(8cd08d9b462a05f45918fe61aa74e559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b32323319bda98cf901465178fab3f') in 0.010523 seconds 
+  Import took 0.014049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/platforms10.png
+  artifactKey: Guid(ffa78b7b026511c499b2adcb8f5f8e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/platforms10.png using Guid(ffa78b7b026511c499b2adcb8f5f8e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce988e62ffd607f82dbe5ef1d5f748f') in 0.012394 seconds 
+  Import took 0.015757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain23.png
+  artifactKey: Guid(f12d7eade0247ae43ac22440d9b242c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain23.png using Guid(f12d7eade0247ae43ac22440d9b242c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677c9bda37b511f63dd74013714ced4d') in 0.012361 seconds 
+  Import took 0.015631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/grass2.png
+  artifactKey: Guid(1b2cb2fb4ff1f4245b29e01689139425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/grass2.png using Guid(1b2cb2fb4ff1f4245b29e01689139425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953f8bd315577e42d0eca28f4f09f9e3') in 0.011110 seconds 
+  Import took 0.014391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/platvariation14.png
+  artifactKey: Guid(fa083b36ebecf2f4f89c04294baa582e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/platvariation14.png using Guid(fa083b36ebecf2f4f89c04294baa582e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc42f8f11003367406747f10c4df24e4') in 0.013021 seconds 
+  Import took 0.016611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/bridge4.png
+  artifactKey: Guid(5c1350d7e8e63cb4cad0f8c861330171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/bridge4.png using Guid(5c1350d7e8e63cb4cad0f8c861330171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ac90d999c6b5ced2fcca85d1ab6c0c') in 0.017695 seconds 
+  Import took 0.020896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/bridge5.png
+  artifactKey: Guid(a11b545c4eb00054a91efc9be88f66f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/bridge5.png using Guid(a11b545c4eb00054a91efc9be88f66f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e88ba2b5dc5836011b732b05f0bac16') in 0.012115 seconds 
+  Import took 0.015245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/platvariation6.png
+  artifactKey: Guid(25b7ac7bde7161642b6e0844b48375dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/platvariation6.png using Guid(25b7ac7bde7161642b6e0844b48375dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5fa309caa54b9a576ac16dc019445ce') in 0.012152 seconds 
+  Import took 0.015309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain14.png
+  artifactKey: Guid(8b6e4313822d82d439ee0a811614b7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain14.png using Guid(8b6e4313822d82d439ee0a811614b7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56899ceb405b64be5891326f6fc4328b') in 0.012403 seconds 
+  Import took 0.015950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain29.png
+  artifactKey: Guid(3a6e2b39bfd3c81469bd32d51a3bc5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain29.png using Guid(3a6e2b39bfd3c81469bd32d51a3bc5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51eb1054d0910b5a601ed2adf4909590') in 0.012754 seconds 
+  Import took 0.016395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain28.png
+  artifactKey: Guid(4c0a03e10b7adfe46aad2f56eaa94042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain28.png using Guid(4c0a03e10b7adfe46aad2f56eaa94042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4052b21566fc515541ecddd0417878d8') in 0.013018 seconds 
+  Import took 0.016544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/platvariation8.png
+  artifactKey: Guid(4fb5f396da5ee494c9c64ad724e7ce47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/platvariation8.png using Guid(4fb5f396da5ee494c9c64ad724e7ce47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f604f723031fb40955f8d03a2d27ccfe') in 0.011777 seconds 
+  Import took 0.014762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/platforms8.png
+  artifactKey: Guid(c53402083e2b8ab47a17e9c6d010799f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/platforms8.png using Guid(c53402083e2b8ab47a17e9c6d010799f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac52c49f2ad880417b7c56357cca83d') in 0.012109 seconds 
+  Import took 0.015630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/platvariation10.png
+  artifactKey: Guid(5cbe8d0c409e23a4597186349947c725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/platvariation10.png using Guid(5cbe8d0c409e23a4597186349947c725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe9569d7db3ce48724349d452344107') in 0.013148 seconds 
+  Import took 0.016759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/platforms3.png
+  artifactKey: Guid(1c53c8d01bf0ec443aa74520de7c0e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/platforms3.png using Guid(1c53c8d01bf0ec443aa74520de7c0e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edbab81ae98ad5826436ce397e570aa2') in 0.011879 seconds 
+  Import took 0.015536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/grass12.png
+  artifactKey: Guid(a32d71a9f3e5b874e91d0014c7aaaa0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/grass12.png using Guid(a32d71a9f3e5b874e91d0014c7aaaa0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55e567e13b34081475af028ecdc4a49') in 0.011654 seconds 
+  Import took 0.014823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/platforms9.png
+  artifactKey: Guid(57fe6e44ddd0a274393f200608d7e852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/platforms9.png using Guid(57fe6e44ddd0a274393f200608d7e852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672b190e6109ce409e4cfba9eae31bef') in 0.011945 seconds 
+  Import took 0.015150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/platforms12.png
+  artifactKey: Guid(94edb64e3eeb0a649a81837319b0c343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/platforms12.png using Guid(94edb64e3eeb0a649a81837319b0c343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2314b018e7855b416f610348538ecaed') in 0.012631 seconds 
+  Import took 0.016026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain6.png
+  artifactKey: Guid(be51e64cfc584dd4fb94fa563041b438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain6.png using Guid(be51e64cfc584dd4fb94fa563041b438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0077e6f7b99452a3c004b72ce4825afc') in 0.013207 seconds 
+  Import took 0.016723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain21.png
+  artifactKey: Guid(3b8e3c577e1e7b0489d82bce3ceef501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain21.png using Guid(3b8e3c577e1e7b0489d82bce3ceef501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6d71784b779d82bbaaae8ce349efdb') in 0.011405 seconds 
+  Import took 0.014946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/bridge2.png
+  artifactKey: Guid(081fa7e8406e3e34f88fd6d963a7eda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/bridge2.png using Guid(081fa7e8406e3e34f88fd6d963a7eda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57dace7950e17c6019c3fdc782eae823') in 0.012618 seconds 
+  Import took 0.015521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/bridge7.png
+  artifactKey: Guid(fa31101ad4b08224eb6127daac929a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/bridge7.png using Guid(fa31101ad4b08224eb6127daac929a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96060942e21b8d20b9f3088f884e5e66') in 0.011988 seconds 
+  Import took 0.014871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/grass3.png
+  artifactKey: Guid(f9b303aebfda5c74f96b7838c383b787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/grass3.png using Guid(f9b303aebfda5c74f96b7838c383b787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2506597135d6e80d4f778b1913859ed') in 0.011749 seconds 
+  Import took 0.015589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/platforms11.png
+  artifactKey: Guid(1511c674ee6dbfd44a96a9cfa9a77235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/platforms11.png using Guid(1511c674ee6dbfd44a96a9cfa9a77235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3071b4b4c59d0bb5b2d2991a47ce63bd') in 0.012154 seconds 
+  Import took 0.015109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/platvariation11.png
+  artifactKey: Guid(d05298e29fcb21f47bc10c28539141e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/platvariation11.png using Guid(d05298e29fcb21f47bc10c28539141e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa17cf0296556f63dc229e853eaa9d2') in 0.012610 seconds 
+  Import took 0.016449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/platvariation13.png
+  artifactKey: Guid(8d1d172b4a1c73448b2f866984a0f304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/platvariation13.png using Guid(8d1d172b4a1c73448b2f866984a0f304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e911b28e90893e5147c7698daad0310') in 0.012649 seconds 
+  Import took 0.015816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/bridge6.png
+  artifactKey: Guid(6ed7d75e0e08ac94fa4b8cb4a5d6a205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/bridge6.png using Guid(6ed7d75e0e08ac94fa4b8cb4a5d6a205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a782b2d7a8a4671f1039d1d1e2944876') in 0.012001 seconds 
+  Import took 0.015553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/platforms4.png
+  artifactKey: Guid(77ca7bf3fcba62947a3375546b853c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/platforms4.png using Guid(77ca7bf3fcba62947a3375546b853c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ce0447860d607f3d49d1d45c3ae557') in 0.011182 seconds 
+  Import took 0.014612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain15.png
+  artifactKey: Guid(695be7c20706b4e49a99f554a6e043f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain15.png using Guid(695be7c20706b4e49a99f554a6e043f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b89403170c276bd5e8343dc85c4d566') in 0.013328 seconds 
+  Import took 0.016535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/platvariation15.png
+  artifactKey: Guid(4bd5bdf953e259948932f73828e0deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/platvariation15.png using Guid(4bd5bdf953e259948932f73828e0deed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c62b0ce0b972dcbdeb66da44dbd2d83') in 0.011625 seconds 
+  Import took 0.015170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain7.png
+  artifactKey: Guid(36f886373ddfc364c9672603d9fd686c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain7.png using Guid(36f886373ddfc364c9672603d9fd686c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8e9e366443ded4595d478c36fc8e0a') in 0.012361 seconds 
+  Import took 0.016178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/platvariation16.png
+  artifactKey: Guid(af39b9b8e8719e740be1377271933005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/platvariation16.png using Guid(af39b9b8e8719e740be1377271933005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b33c5b8b941b54625e990c2f1c2344') in 0.011675 seconds 
+  Import took 0.015072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain24.png
+  artifactKey: Guid(e900ce7bccd93b247994b962290e795e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain24.png using Guid(e900ce7bccd93b247994b962290e795e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85fe64bb3dd3f8effb53a97f46ebe43') in 0.011745 seconds 
+  Import took 0.014778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/bridge8.png
+  artifactKey: Guid(68f82c5c8ad6619498c6339072226d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/bridge8.png using Guid(68f82c5c8ad6619498c6339072226d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3accde509dbde424479b21e7e45c37') in 0.010764 seconds 
+  Import took 0.013756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain2.png
+  artifactKey: Guid(d7ae542fa62803447ab2729758bd55ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain2.png using Guid(d7ae542fa62803447ab2729758bd55ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de5d4e4065cc746a86e9fb14ad1dd3d') in 0.012784 seconds 
+  Import took 0.015865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/platvariation7.png
+  artifactKey: Guid(1550c166d81116540a8f35b18c4119b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/platvariation7.png using Guid(1550c166d81116540a8f35b18c4119b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ca8fd8acfe2f381899324443c2b7c8') in 0.014276 seconds 
+  Import took 0.018026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain4.png
+  artifactKey: Guid(3835453793778604cb41f30ea712843f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain4.png using Guid(3835453793778604cb41f30ea712843f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8718730d2ba4d8df076781abe80ac20') in 0.012137 seconds 
+  Import took 0.015292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/grass10.png
+  artifactKey: Guid(d14f5b168d7a06e4db2275ea7811a0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/grass10.png using Guid(d14f5b168d7a06e4db2275ea7811a0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8ff7c064d44e531901cd84058e6d4f') in 0.011294 seconds 
+  Import took 0.015131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/platforms2.png
+  artifactKey: Guid(6bac2fcbd25b7ab42a97c9494396df3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/platforms2.png using Guid(6bac2fcbd25b7ab42a97c9494396df3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08f2f0a401eb364ed78dc4dec562d2d') in 0.011937 seconds 
+  Import took 0.015834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/platvariation4.png
+  artifactKey: Guid(56f7ce12fd8831f4b8dd0647eb599ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/platvariation4.png using Guid(56f7ce12fd8831f4b8dd0647eb599ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104ff10d4d9227c08b4334b20bb11c9d') in 0.012503 seconds 
+  Import took 0.016269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/grass1.png
+  artifactKey: Guid(987ba2a4a014a2f4584a8b7ee3b3e8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/grass1.png using Guid(987ba2a4a014a2f4584a8b7ee3b3e8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1a2156e2c1a3e5f4a51e37ab116615') in 0.011676 seconds 
+  Import took 0.015258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/bridge9.png
+  artifactKey: Guid(b2cdfcb181a33e04a8ab1848e61fbd90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/bridge9.png using Guid(b2cdfcb181a33e04a8ab1848e61fbd90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d880b25852d82efb757194a3ed6898d') in 0.011506 seconds 
+  Import took 0.015383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain27.png
+  artifactKey: Guid(7c6c72e5ca4b2954283b411d6ac58922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain27.png using Guid(7c6c72e5ca4b2954283b411d6ac58922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9102c5ec4a2642128829967025279a9b') in 0.010982 seconds 
+  Import took 0.014715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/grass7.png
+  artifactKey: Guid(b2816d98813a59b428d6ded54cc4c33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/grass7.png using Guid(b2816d98813a59b428d6ded54cc4c33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd6a544b1837c70c0761fc3a08629f0') in 0.010950 seconds 
+  Import took 0.014614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/platforms7.png
+  artifactKey: Guid(2e45fa33bf806a64fb1c8aa73bc07ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/platforms7.png using Guid(2e45fa33bf806a64fb1c8aa73bc07ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355030a5d1f93580e1bf96302465eb5c') in 0.012339 seconds 
+  Import took 0.015775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/grass9.png
+  artifactKey: Guid(1fb023ee4f9f8d54eae7806b6112da36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/grass9.png using Guid(1fb023ee4f9f8d54eae7806b6112da36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff318d8151e5e37114c720908a39ac4') in 0.012678 seconds 
+  Import took 0.016370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/platvariation12.png
+  artifactKey: Guid(8267cc84976119a4baeb30d471429f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/platvariation12.png using Guid(8267cc84976119a4baeb30d471429f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201c6bb09425fd109e05e0dce59ceb61') in 0.012738 seconds 
+  Import took 0.016034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain18.png
+  artifactKey: Guid(e75b424aaf5e29e4a9057289a369149c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain18.png using Guid(e75b424aaf5e29e4a9057289a369149c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb5b6278d189750f8a8dc61872c292b') in 0.011318 seconds 
+  Import took 0.014918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/platforms1.png
+  artifactKey: Guid(c07849f3b44317f4187dc34bec1ad4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/platforms1.png using Guid(c07849f3b44317f4187dc34bec1ad4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cd0d4399d1f53bf36b758e6ab63e32') in 0.013662 seconds 
+  Import took 0.017197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain20.png
+  artifactKey: Guid(93bede0028f1ad74f8fa9271883c84fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain20.png using Guid(93bede0028f1ad74f8fa9271883c84fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c7da0f78e1bd6b86897dfa1fec9abc') in 0.012238 seconds 
+  Import took 0.015380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/bridge1.png
+  artifactKey: Guid(9f31e80df638cf94cb7eff6f21db9d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/bridge1.png using Guid(9f31e80df638cf94cb7eff6f21db9d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0477c19c6011b01b7f9b3ccecfacc3') in 0.010908 seconds 
+  Import took 0.013989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/grass8.png
+  artifactKey: Guid(db5bd655595c63a4b8c95e92f81f4ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/grass8.png using Guid(db5bd655595c63a4b8c95e92f81f4ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920801a6b3dcad4e6a5af993611bb1ea') in 0.010724 seconds 
+  Import took 0.014319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/grass6.png
+  artifactKey: Guid(b800b0b757cd48442945cdec828db9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/grass6.png using Guid(b800b0b757cd48442945cdec828db9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b49de8765336c54e80d482182dd2d5b') in 0.012257 seconds 
+  Import took 0.015984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/platvariation17.png
+  artifactKey: Guid(62f137e9fa47ec04a846f1df7100f45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/platvariation17.png using Guid(62f137e9fa47ec04a846f1df7100f45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e02f4a444f2a1c54710f777b21b8fd4') in 0.013701 seconds 
+  Import took 0.017283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain17.png
+  artifactKey: Guid(85bf513afe5f95f429e824f3ba60bc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain17.png using Guid(85bf513afe5f95f429e824f3ba60bc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d23f9bd766ae9bc4704d091a1a83e5') in 0.011885 seconds 
+  Import took 0.015861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain19.png
+  artifactKey: Guid(015ed53e309c09540ab6d8131e7db3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain19.png using Guid(015ed53e309c09540ab6d8131e7db3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea0bcad771f22c8a18f8755c293ac92') in 0.012623 seconds 
+  Import took 0.016024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain8.png
+  artifactKey: Guid(c815c63b6ba49ce48a59382691f6f9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain8.png using Guid(c815c63b6ba49ce48a59382691f6f9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e85b8e3889a6a7cc656f6a54fc941a') in 0.011767 seconds 
+  Import took 0.016125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/platvariation9.png
+  artifactKey: Guid(93ba30a0024dfd941b0df42258dcec60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/platvariation9.png using Guid(93ba30a0024dfd941b0df42258dcec60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08da15d51f9b7828f1ef63c75b709d36') in 0.011808 seconds 
+  Import took 0.015291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain26.png
+  artifactKey: Guid(61a8c6c62e5076f478aacca50fc011e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain26.png using Guid(61a8c6c62e5076f478aacca50fc011e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb43526eb4bdddc1d19bd79c504cc831') in 0.011814 seconds 
+  Import took 0.014816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain11.png
+  artifactKey: Guid(58eb2c64f7cea0d4cbb00d3f7bc98eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain11.png using Guid(58eb2c64f7cea0d4cbb00d3f7bc98eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b20824468d57ede268e391bb22ac0d') in 0.013585 seconds 
+  Import took 0.017373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain12.png
+  artifactKey: Guid(b847794ee9022814cbc056381763b882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain12.png using Guid(b847794ee9022814cbc056381763b882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e474ed858e721c12041cd6ccf2661df') in 0.011714 seconds 
+  Import took 0.015443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/grass4.png
+  artifactKey: Guid(6a8b3fb0fed97c54fba2b854b42c0a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/grass4.png using Guid(6a8b3fb0fed97c54fba2b854b42c0a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856ea9e6ac7d7647cc1c1c4c77d86ff2') in 0.012520 seconds 
+  Import took 0.015724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/grass5.png
+  artifactKey: Guid(b29cf40a24b595a4694fa98300c76ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/grass5.png using Guid(b29cf40a24b595a4694fa98300c76ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ceebe0e0ce5a81fe7f014150f87f009') in 0.012320 seconds 
+  Import took 0.016022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/platvariation5.png
+  artifactKey: Guid(dd325c5d361fd484ea749da6be5b33d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/platvariation5.png using Guid(dd325c5d361fd484ea749da6be5b33d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077466b385d067b872dc04e38d92342d') in 0.011723 seconds 
+  Import took 0.014743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/platvariation2.png
+  artifactKey: Guid(0affd42e42d2b2d45a02e98c85025808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/platvariation2.png using Guid(0affd42e42d2b2d45a02e98c85025808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727a0f7e4ac3f2ab64714e48bb1dc5d7') in 0.011049 seconds 
+  Import took 0.014551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain10.png
+  artifactKey: Guid(4318284d8a9853042b99b10b96dc216d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain10.png using Guid(4318284d8a9853042b99b10b96dc216d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d55c28a85c926ba0752942a35d4788f') in 0.012384 seconds 
+  Import took 0.015895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/platvariation18.png
+  artifactKey: Guid(08f627472128e624fb570ce0847072de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/platvariation18.png using Guid(08f627472128e624fb570ce0847072de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8984dd75efe626d04812c01e87aed53a') in 0.012701 seconds 
+  Import took 0.015771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/platforms5.png
+  artifactKey: Guid(3c3fdbcd59c63aa408cbaf8fafe0de9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/platforms5.png using Guid(3c3fdbcd59c63aa408cbaf8fafe0de9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c209692e113da52109e130990d9a27') in 0.012266 seconds 
+  Import took 0.016186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain13.png
+  artifactKey: Guid(8fc1cbb20bb0bde48bfa87e00070dad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain13.png using Guid(8fc1cbb20bb0bde48bfa87e00070dad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73cb3f191ed30f87315479e6a5509884') in 0.014372 seconds 
+  Import took 0.018430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/platforms6.png
+  artifactKey: Guid(c88094c9a71db8a479362640c59fcf05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/platforms6.png using Guid(c88094c9a71db8a479362640c59fcf05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4e186d391835cf2a61432cda755400') in 0.011731 seconds 
+  Import took 0.015417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/platvariation1.png
+  artifactKey: Guid(2d6a338289ed9f94cb65b04df841802a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/platvariation1.png using Guid(2d6a338289ed9f94cb65b04df841802a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a968cf6ed0896308840d323acf2d5a7') in 0.012729 seconds 
+  Import took 0.016249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain22.png
+  artifactKey: Guid(0f657bc81af8e474d99805271097e316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain22.png using Guid(0f657bc81af8e474d99805271097e316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7816a4f69d6b9aa61b84079075c6718') in 0.011821 seconds 
+  Import took 0.015300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain9.png
+  artifactKey: Guid(da537747946755c4ab14ab55e24e2dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain9.png using Guid(da537747946755c4ab14ab55e24e2dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5938b0b75820546c5d962b3820d05d1') in 0.011643 seconds 
+  Import took 0.015355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain25.png
+  artifactKey: Guid(558752fcf6a23cc4ca94616013ea4b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain25.png using Guid(558752fcf6a23cc4ca94616013ea4b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8794e93da9b928b38fb577ed1f09f571') in 0.011716 seconds 
+  Import took 0.015007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain3.png
+  artifactKey: Guid(97620a36194e9004596eb06f75a38b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain3.png using Guid(97620a36194e9004596eb06f75a38b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b58c26d5d5b3e5327938c20b36e0429') in 0.011850 seconds 
+  Import took 0.015437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.585826 seconds.
+  path: Assets/場景素材/Platformer - desert/mockup.aseprite
+  artifactKey: Guid(a49a8538c150c6149a57736fbe1ffc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/mockup.aseprite using Guid(a49a8538c150c6149a57736fbe1ffc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238d0a98ffd1274c0345e35aec429f74') in 0.009513 seconds 
+  Import took 0.013363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.228986 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Particle Flame.png
+  artifactKey: Guid(cfcfd3af954eeb54cb041fe6d75a983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Particle Flame.png using Guid(cfcfd3af954eeb54cb041fe6d75a983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd1f0a2d07d95972b2b6de8d50696f4') in 0.028450 seconds 
+  Import took 0.031960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034409 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Background Grid.png
+  artifactKey: Guid(4525736a9d0538940bce8f13f1227b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Background Grid.png using Guid(4525736a9d0538940bce8f13f1227b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d31af1d7d40155089c71f14a4db8b1') in 0.028379 seconds 
+  Import took 0.031987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae8f688ef04ed9f0b495a0af5b76483') in 0.025530 seconds 
+  Import took 0.029427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png
+  artifactKey: Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png using Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01261ef3108982642bd5cf6a8558345e') in 0.022963 seconds 
+  Import took 0.026143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Chest Animation.png
+  artifactKey: Guid(19e07f9d107e445408633f50457d456e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Chest Animation.png using Guid(19e07f9d107e445408633f50457d456e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c68b6a6366583f08f0451fab31ad78') in 0.016168 seconds 
+  Import took 0.019034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 140.039570 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897dff164447ddf6d9c650ad1570e031') in 0.012749 seconds 
+  Import took 0.016271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 302.343194 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7bdb7f19104c4e508af81ef523e990') in 0.318858 seconds 
+  Import took 0.323096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.311055 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708b1b7e5d44d30dc12e0af7e225b676') in 0.321500 seconds 
+  Import took 0.325405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.468493 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png
+  artifactKey: Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png using Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39eca36a7ba711a92590b8573ef0c044') in 0.011568 seconds 
+  Import took 0.016066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.499444 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png
+  artifactKey: Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png using Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4e9115fb39c2d4fc3666fb91ec96c3') in 0.353112 seconds 
+  Import took 0.357214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.787485 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture
+  artifactKey: Guid(4fb7661537e28884697bca33184bdaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture using Guid(4fb7661537e28884697bca33184bdaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49218b2e2a296db1cad4179661b2a9fb') in 0.006429 seconds 
+  Import took 0.009898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.401538 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Particle Flame.png
+  artifactKey: Guid(cfcfd3af954eeb54cb041fe6d75a983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Particle Flame.png using Guid(cfcfd3af954eeb54cb041fe6d75a983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb626b4f50a2dcca01d31f072885156') in 0.009782 seconds 
+  Import took 0.013267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001272 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Particle Flame.png
+  artifactKey: Guid(cfcfd3af954eeb54cb041fe6d75a983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Particle Flame.png using Guid(cfcfd3af954eeb54cb041fe6d75a983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb626b4f50a2dcca01d31f072885156') in 0.007242 seconds 
+  Import took 0.010460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.901261 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Particle Flame.png
+  artifactKey: Guid(cfcfd3af954eeb54cb041fe6d75a983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Particle Flame.png using Guid(cfcfd3af954eeb54cb041fe6d75a983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f9e9a12c921c0e663c5d6dbcf7d32f') in 0.105511 seconds 
+  Import took 0.108992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.305765 seconds.
+  path: Assets/場景素材/Platformer - desert/Background/BG-mountains.png
+  artifactKey: Guid(31ff23cb36ada474b90abab58bc9bc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Background/BG-mountains.png using Guid(31ff23cb36ada474b90abab58bc9bc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea6d8d4a1974744c3e79b2223d14bbb') in 0.013012 seconds 
+  Import took 0.016505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/場景素材/Platformer - desert/Background/BG-ruins.png
+  artifactKey: Guid(e6886269ac3c8cd498b43b0bc181d97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Background/BG-ruins.png using Guid(e6886269ac3c8cd498b43b0bc181d97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad86fac7c1bd282c5e5a1a84f16c2c13') in 0.026208 seconds 
+  Import took 0.029114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/場景素材/Platformer - desert/Background/BG-sun.png
+  artifactKey: Guid(73b341a882671e84abed3ca1b780dd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Background/BG-sun.png using Guid(73b341a882671e84abed3ca1b780dd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5b70d857c58443f65d5650c37929a4') in 0.026264 seconds 
+  Import took 0.029122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/場景素材/Platformer - desert/Background/BG-sky.png
+  artifactKey: Guid(b3b0d89805a4f1c43aecd5b683ee75dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Background/BG-sky.png using Guid(b3b0d89805a4f1c43aecd5b683ee75dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4221b3fef97d115a762a49e6cc7841') in 0.020970 seconds 
+  Import took 0.023889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.479235 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain30.png
+  artifactKey: Guid(d321f08056375b14aae1d43b20d5c88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain30.png using Guid(d321f08056375b14aae1d43b20d5c88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6650d08be54bdb43cebbedb58bc1136d') in 0.014906 seconds 
+  Import took 0.018767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain32.png
+  artifactKey: Guid(cc747367c3950b04fad3d12e7b600fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain32.png using Guid(cc747367c3950b04fad3d12e7b600fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ff77114ce67f990cc185b37a37949a') in 0.012532 seconds 
+  Import took 0.016059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/water1.png
+  artifactKey: Guid(8b5e7cbe7f9bb00419227dd4cb50eced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/water1.png using Guid(8b5e7cbe7f9bb00419227dd4cb50eced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d868009e1fe42d37d6cf9f625d9640') in 0.022575 seconds 
+  Import took 0.025352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/water2.png
+  artifactKey: Guid(c64ae4259b84f404881c7e72611da2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/water2.png using Guid(c64ae4259b84f404881c7e72611da2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79bc539e0e84f89643ed785095ad4f1b') in 0.010531 seconds 
+  Import took 0.013872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/tileMain31.png
+  artifactKey: Guid(2fe45b200dfdd7c4ab0d6ce5d2a0d816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/tileMain31.png using Guid(2fe45b200dfdd7c4ab0d6ce5d2a0d816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0480278f3180d88c6d2b7cc24cac76') in 0.011383 seconds 
+  Import took 0.014237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.623561 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/00Atlas.png
+  artifactKey: Guid(53ff735509585c84fa30928ac0ff80f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/00Atlas.png using Guid(53ff735509585c84fa30928ac0ff80f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539a351831f98b122ea45cc03997411b') in 0.011156 seconds 
+  Import took 0.014575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.203543 seconds.
+  path: Assets/場景素材/Platformer - desert/Tileset/00Atlas.png
+  artifactKey: Guid(53ff735509585c84fa30928ac0ff80f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Platformer - desert/Tileset/00Atlas.png using Guid(53ff735509585c84fa30928ac0ff80f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10bc7103ef341f651c06f3c736a381a') in 0.221141 seconds 
+  Import took 0.224796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 283.268894 seconds.
+  path: Assets/調色盤/地形.prefab
+  artifactKey: Guid(22f1574c3815c5c478dc3013369f1bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/地形.prefab using Guid(22f1574c3815c5c478dc3013369f1bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115d76f9d3d41204e54750ad70809233') in 0.015826 seconds 
+  Import took 0.019638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 828.578616 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png
+  artifactKey: Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png using Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf148822ca3c8ebdf7d217c1812602ea') in 0.388288 seconds 
+  Import took 0.392950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.551748 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78321694345c2c5fb6c37379269cd1d5') in 0.327392 seconds 
+  Import took 0.331379 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
